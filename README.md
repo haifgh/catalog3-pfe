@@ -7,6 +7,8 @@ These playbooks are meant to be a reference and starter's guide to building
 Ansible Playbooks. These playbooks were tested on Ubuntu 16.04 so we recommend
 that you use Ubuntu to test these modules.
 
+## 3-Tier Infrastructure
+
 This 3-Tier Infrastructure stack can be on a single node or multiple nodes. The inventory file
 'hosts' defines the nodes in which the stacks should be configured.
 
@@ -27,7 +29,7 @@ Once done, you can check the results by browsing to http://localhost/index.php.
 You should see a simple test page and a list of databases retrieved from the
 database server.
 
-Next Steps
+## Next Steps
 
 We can allways improve this playbook to execute some of the additional installations and below mentioned future steps can be taken:
 
