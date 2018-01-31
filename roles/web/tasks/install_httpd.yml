@@ -1,0 +1,15 @@
+---
+# These tasks install http and the php modules.
+
+- name: Install http and php etc
+  apt: name={{ item }} state=present
+  with_items:
+   - apache2
+   - php
+   - php-mysql
+   - git
+   - libapache2-mod-php
+
+- name: http service state
+  service: name=apache2 state=started enabled=yes
+
