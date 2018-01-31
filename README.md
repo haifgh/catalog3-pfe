@@ -33,7 +33,9 @@ database server.
 
 We can allways improve this playbook to execute some of the additional installations and below mentioned future steps can be taken:
 
-1) As of now this covers ubuntu only so we can extend this to other operating system also.
-2) We can use multiple servers instead of localhost server to extend this architecture to multiple servers.
-3) We can include a fully working application instead of sample ping application for a complete setup.
-4) We can include other development tools also to this playbook. 
+ - As of now this covers ubuntu only so we can extend this to other operating system also.
+ - We can use multiple servers instead of localhost server to extend this architecture to multiple servers.
+ - We can include a fully working application instead of sample ping application for a complete setup.
+ - We can include other development tools also to this playbook.
+ - When Ansible combines with Docker then which is a best combination for efficient software product
+ -  
