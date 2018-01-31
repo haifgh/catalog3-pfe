@@ -10,7 +10,7 @@ that you use Ubuntu to test these modules.
 ## 3-Tier Infrastructure
 
 This 3-Tier Infrastructure stack can be on a single node or multiple nodes. The inventory file
-'hosts' defines the nodes in which the stacks should be configured.
+`hosts` defines the nodes in which the stacks should be configured.
 
         [webservers]
         localhost
