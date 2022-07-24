@@ -1,5 +1,4 @@
 [webservers]
-localhost
-
+192.168.8.174
 [dbservers]
-localhost
+192.168.8.174
